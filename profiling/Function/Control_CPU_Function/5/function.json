@@ -1,0 +1,1 @@
+{"status": 0, "data": [{"Function": "prof_drv_ioctl", "IPC": 0.010167694475390307, "Retiring": 0.003389231491796769, "Module": "[drv_prof]", "Cycles": 31082956, "Instructions": 316042}]}

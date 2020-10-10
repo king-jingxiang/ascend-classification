@@ -1,0 +1,1 @@
+{"status": 0, "data": [{"Retiring": 0.06452494704781657, "IPC": 0.19357484114344972, "Cycles": 42904589, "Module": "[kernel.kallsyms]", "Instructions": 8305249}, {"Retiring": "NA", "IPC": "NA", "Cycles": 0, "Module": "/usr/lib64/ld-2.17.so", "Instructions": 700958}]}

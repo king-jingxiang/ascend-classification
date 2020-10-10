@@ -1,0 +1,1 @@
+{"status": 0, "info": "", "data": [{"Event": "0x11", "Name": "Cpu_cycles", "Count": 42904589}, {"Event": "0x8", "Name": "Inst_retired", "Count": 9006207}]}

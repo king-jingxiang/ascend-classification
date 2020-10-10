@@ -1,0 +1,1 @@
+/usr/bin/g++-5     CMakeFiles/main.dir/Main.cpp.o  -o /home/user/AscendProjects/sample-classification/build/outputs/main  -L/home/user/.mindstudio/huawei/ddk/1.31.T19.B190/EP/host-x86_64_Ubuntu16.04/lib -Wl,-rpath,/home/user/.mindstudio/huawei/ddk/1.31.T19.B190/EP/host-x86_64_Ubuntu16.04/lib: -lmatrix -lmmpa -lpthread -ldl -lrt 

@@ -1,0 +1,1 @@
+{"status": 0, "data": [{"cpu_info": {"CPU0": {"Name": "GenuineIntel", "Type": "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz", "Frequency": "2000", "Logical_CPU_Count": "2"}}, "Host Operating System": "Linux-4.4.0-165-generic-#193-Ubuntu SMP Tue Sep 17 17:42:52 UTC 2019", "Host Computer Name": "ecs-ai"}]}

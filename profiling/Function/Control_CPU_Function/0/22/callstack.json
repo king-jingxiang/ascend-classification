@@ -1,0 +1,1 @@
+{"status": 0, "data": [{"IPC": 0.0, "Callstack": "ffff0000080e9020 do_idle+0x1a0 ([kernel.kallsyms])<-ffff0000080e92e8 cpu_startup_entry+0x20 ([kernel.kallsyms])<-ffff000008094178 secondary_start_kernel+0x188 ([kernel.kallsyms])", "Cycles": 3589719, "Retiring": 0.0, "Instructions": 0}]}

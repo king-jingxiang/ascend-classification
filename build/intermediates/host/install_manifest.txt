@@ -1,0 +1,2 @@
+/home/user/AscendProjects/sample-classification/build/intermediates/host/../../../run/out/main
+/home/user/AscendProjects/sample-classification/build/intermediates/host/../../../run/out/libHost.so

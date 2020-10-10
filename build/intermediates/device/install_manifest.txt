@@ -1,0 +1,1 @@
+/home/user/AscendProjects/sample-classification/build/intermediates/device/../../../run/out/libDevice.so

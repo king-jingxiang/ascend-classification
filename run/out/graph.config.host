@@ -1,0 +1,79 @@
+graphs {
+  graph_id: 1676964745
+  priority: 0
+
+  engines {
+    id: 487
+    engine_name: "general_image"
+    side: HOST
+    thread_num: 1
+    so_name: "./libHost.so"
+    ai_config {
+      items{
+        name: "path"
+value: "../../../../HIAI_DATANDMODELSET/workspace_mind_studio/resource/"
+      }
+    }
+  }
+
+  engines {
+    id: 639
+    engine_name: "general_inference"
+    side: DEVICE
+    thread_num: 1
+    so_name: "./lib/device/libascend_ezdvpp.so"
+    so_name: "./libDevice.so"
+    ai_config {
+
+      items {
+        name: "model_path"
+value: "../../../../HIAI_DATANDMODELSET/workspace_mind_studio/resnet18.om"
+      }
+
+      items {
+        name: "resize_width"
+        value: "224"
+      }
+
+      items {
+        name: "resize_height"
+        value: "224"
+      }
+    }
+  }
+
+  engines {
+    id: 641
+    engine_name: "general_post"
+    side: HOST
+    thread_num: 1
+    so_name: "./libHost.so"
+    ai_config {
+
+      items {
+        name: "output_name_prefix"
+        value: "out_"
+      }
+
+      items{
+        name: "Output_path"
+        value: "./result_files"
+      }
+
+    }
+  }
+
+  connects {
+    src_engine_id: 487
+    src_port_id: 0
+    target_engine_id: 639
+    target_port_id: 0
+  }
+
+  connects {
+    src_engine_id: 639
+    src_port_id: 0
+    target_engine_id: 641
+    target_port_id: 0
+  }
+}			
